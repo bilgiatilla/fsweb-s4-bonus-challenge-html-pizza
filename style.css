@@ -124,7 +124,10 @@ display: block;
   color: #CE2829;
   font-family: "Barlow";
   margin-left: 1rem;
-  
+}
+.banner-content button:hover{
+  background: black;
+  color: #FFF;
 }
 .ozel-lezzetus {
   grid-column: 1 / 2;
@@ -184,4 +187,85 @@ display: block;
 .npm-kurye h3 span {
   color: red;
 }
-
+.bottom-content {
+  text-align: center;
+}
+.bottom-content h3 {
+  color: #CE2829;
+  font-family: "Satisfy";
+  font-weight: lighter;
+  font-size: 2rem;
+}
+.bottom-content h2 {
+  font-family: "Barlow";
+  color: #292929;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  padding: 8px 12px;
+  align-items: center;
+}
+.menu-list a {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  background-color: #FFF;
+  border-radius: 3rem;
+  text-decoration: none;
+  padding: 4px 16px;
+  font-family: Barlow;
+  font-weight: 200;
+  color: #292929;
+}
+.menu-list a:hover {
+  border: 1px solid black;
+  background-color: black;
+  color: #FFF;
+}
+.product-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.product {
+  background: #FFF;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: left;
+  color: #292929;
+  font-family: "Barlow";
+}
+.product p, h4, h5 {
+  margin: 0;
+}
+.product p, h5{
+  font-size: 14px;
+  color: #666;
+}
+.product h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.product p:first-of-type,
+.product p:nth-of-type(2),
+.product h4, h5 {
+  display: inline-block;
+}
+.product h4 {
+  float: right;
+}
+.product h3 {
+  margin: 12px 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.product p {
+  margin-left: 80px;
+}
