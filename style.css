@@ -269,3 +269,60 @@ display: block;
 .product p {
   margin-left: 80px;
 }
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  background: #1A1A1A;
+  padding: 5rem 5rem;
+  justify-content: space-between;
+}
+.adress-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+footer h2 {
+  font-family: "Londrina Solid";
+  font-size: 3rem;
+}
+.adress-content img, p{
+  margin-top: 1rem;
+  display: inline-block;
+  row: 2rem;
+}
+.hot-menu h3 {
+  font-family: "Barlow";
+  font-size: 40px;
+  margin: 40px 0;
+}
+.hot-menu h4 {
+  font-family: "Barlow";
+  font-weight: lighter;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.instagram h3{
+  font-size: 30px;
+  font-family: "Barlow";
+}
+.instagram {
+  direction: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+.instagram img{
+  margin: 0.5rem;
+  border-radius: 1px;
+}
+.copyright {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid white;
+  background: #1A1A1A;
+  justify-content:space-between;
+  padding: 10px 10px;
+}
+.copyright i{
+color: white;
+}
